@@ -1,0 +1,70 @@
+<app-progress-bar *ngIf="loading"></app-progress-bar>
+
+<div class="container">
+    <div class="title">
+        <h1>List Games</h1>
+    </div>
+
+    <div class="container">
+      <div class="row mt-1">
+        <div class="col-lg-3"></div>
+
+        <div class="col-lg-3">
+          <div class="form-group">
+            <input (keyup)="onFilterTitle($event)" type="text" class="form-control" placeholder="Filter Title">
+          </div>
+        </div>
+    
+        <div class="col-lg-3">
+          <div class="form-group">
+            <select (change)="onFilterGenre($event)" class="form-select">
+              <option value="">Filter Genre</option>
+              <option value="mmo">MMO</option>
+              <option value="mmorpg">MMORPG</option>
+              <option value="shooter">Shooter</option>
+              <option value="strategy">Strategy</option>
+              <option value="moba">Moba</option>
+              <option value="card">Card Games</option>
+              <option value="racing">Racing</option>
+              <option value="sports">Sports</option>
+              <option value="social">Social</option>
+              <option value="fighting">Fighting</option>
+            </select>
+          </div>
+        </div>
+    
+        <div class="col-lg-3">
+          <div class="form-group">
+            <select (change)="onFilterPlatform($event)" class="form-select" >
+              <option value="">Filter Platform</option>
+              <option value="pc">Windows (PC)</option>
+              <option value="browser">Browser (WEB)</option>
+              <option value="all">All Platform</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div *ngIf="listGames.length > 0" class="row mt-5">
+      <div *ngFor="let item of listGames" class="col-lg-3">
+        <div class="card mb-3" >
+          <h3 class="card-header text-truncate">{{ item.title }}</h3>
+          <img src="{{ item.thumbnail }}" alt="">
+          <div class="card-body">
+            <p class="card-text text-truncate">{{ item.short_description }}</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">{{ item.genre }}</li>
+          </ul>
+          <div class="card-body">
+            <a routerLink="/{{ item.id }}" class="stretched-link">{{ item.platform }}</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h5 *ngIf="listGames.length == 0">
+      No records
+    </h5>
+</div>
