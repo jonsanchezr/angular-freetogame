@@ -48,8 +48,8 @@ Not defined.
 Jonathan Sanchez Rodriguez - jsanchez.dev1991@gmail.com
 
 ## Screenshot
-[![screenshot-1](https://raw.githubusercontent.com/jonsanchezr/angular-freetogame/main/z-screenshots/screenshot-1.png "screenshot-1")](https://raw.githubusercontent.com/jonsanchezr/angular-freetogame/main/z-screenshots/screenshot-1.png "screenshot-1")
+[![screenshot-1](https://raw.githubusercontent.com/jonsanchezr/angular-freetogame/main/z-screenshots/screenshot-1.jpeg "screenshot-1")](https://raw.githubusercontent.com/jonsanchezr/angular-freetogame/main/z-screenshots/screenshot-1.jpeg "screenshot-1")
 
-[![screenshot-2](https://raw.githubusercontent.com/jonsanchezr/angular-freetogame/main/z-screenshots/screenshot-2.png "screenshot-2")](https://raw.githubusercontent.com/jonsanchezr/angular-freetogame/main/z-screenshots/screenshot-2.png "screenshot-2")
+[![screenshot-2](https://raw.githubusercontent.com/jonsanchezr/angular-freetogame/main/z-screenshots/screenshot-2.jpeg "screenshot-2")](https://raw.githubusercontent.com/jonsanchezr/angular-freetogame/main/z-screenshots/screenshot-2.jpeg "screenshot-2")
 
-[![screenshot-3](https://raw.githubusercontent.com/jonsanchezr/angular-freetogame/main/z-screenshots/screenshot-3.png "screenshot-3")](https://raw.githubusercontent.com/jonsanchezr/angular-freetogame/main/z-screenshots/screenshot-3.png "screenshot-3")
+[![screenshot-3](https://raw.githubusercontent.com/jonsanchezr/angular-freetogame/main/z-screenshots/screenshot-3.jpeg "screenshot-3")](https://raw.githubusercontent.com/jonsanchezr/angular-freetogame/main/z-screenshots/screenshot-3.jpeg "screenshot-3")
